@@ -254,7 +254,7 @@ class Factor(DataReader, DataListener):
         drawer = Drawer(self.factor_df)
         return drawer
 
-    def get_main_data(self) -> Optional[NormalData]:
+    def get_main_df(self) -> Optional[NormalData]:
         return self.data_df
 
     def get_factor_df_list(self) -> Optional[List[pd.DataFrame]]:
